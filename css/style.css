@@ -1,0 +1,66 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgba(107, 73, 0, 0.603);
+    padding: 3%;
+    color: white;
+    text-align: center;
+}
+
+ body {
+    background-image: url("../imagens/moedas.jpg");
+    background-color: rgba(255, 255, 255, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 150%;
+}
+
+.tela {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    margin: 3% 30% 3% 30%;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99) 0px 2px 8px 0px;
+}
+
+#moedas,
+#calcula {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 2% 3% 2% 3%;
+    text-align: center;
+    text-decoration: none;
+    width: 35%;
+}
+
+#calcula:hover {
+    cursor: pointer;
+    background-color: #fffefb;
+}
+
+#real {
+
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 2% 3% 2% 3%;
+    text-align: center;
+    text-decoration: none;
+    width: 30%;
+
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1%;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

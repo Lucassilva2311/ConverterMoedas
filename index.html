@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='css/reset.css'>
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/responsivo.css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico&display=swap' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto&display=swap' rel='stylesheet'>
+    <link rel="icon" href="./imagens/coin.png" alt="Moeda por FlatIcon">
+    <title>Converter Moedas</title>
+    
+    <script type="text/javascript" src="js/converter.js" defer></script>
+</head>
+<header>
+    <h1>Converter Valores</h1>
+</header>
+
+<body>
+    <form class='tela'>
+        <h1>Conversor de Moedas</h1><br>
+        <select id='moedas' onchange="trocarMoeda(value)">
+            <option value='selecionar' id="selecionar">Selecionar</option>
+            <option value='dolar' id="dolar">Dolar</option>
+            <option value='euro' id="euro">Euro</option>
+            <option value='libra' id="libra">Libra Esterlina</option>
+            <option value='pesoMX' id="pesoMX">Peso Mexicano</option>
+            <option value='pesoAR' id="pesoAR">Peso Argentino</option>
+            <option value='iene' id="iene">Iene</option>
+        </select><br><br>
+        <label for='real'>Digite o valor para converter em Reais:</label><br><br>
+        <p class="mostrar-numero"><br></p><br>
+        <input type='number' id='real' name='real' value='real' placeholder='Digite um Numero'><br><br>
+        <input type='submit' id='calcula' name='calcula' value='Calcular'>
+    </form>
+</body>
+<footer>&copy Lucas Silva Sousa</footer>
+
+</html>
